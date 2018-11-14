@@ -2,6 +2,8 @@
 This can be used to get the water meter data stored in the server. Or store the data using UDP messages. 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 How to get data?
 Send a GET request to http://192.248.15.157:8081/meter/all 
 ![image](https://user-images.githubusercontent.com/29881881/48465684-b5f6cc00-e809-11e8-8ba2-e3a4bf347f1e.png)
