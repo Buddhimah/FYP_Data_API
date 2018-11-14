@@ -1,10 +1,14 @@
 # FYP_Data_API
 This can be used to get the water meter data stored in the server. Or store the data using UDP messages. 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 How to get data?
 Send a GET request to http://192.248.15.157:8081/meter/all 
 ![image](https://user-images.githubusercontent.com/29881881/48465684-b5f6cc00-e809-11e8-8ba2-e3a4bf347f1e.png)
 
 Data will be received in the JSON format. 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 How to Store data?
 For our final year project, we are using NB-iOT and 6Lowpan Mesh network as Communication Protocols stacks. Hence UDP messages will be used to transfer data. This application has functionality to receive those UDP messages and store them in MySQL database. 
