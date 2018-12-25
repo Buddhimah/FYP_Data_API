@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 14, 2018 at 07:14 AM
+-- Generation Time: Dec 25, 2018 at 03:21 PM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -28,18 +28,21 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `meter_data` (
   `id` int(11) NOT NULL,
-  `data` varchar(255) DEFAULT NULL
+  `data` varchar(255) DEFAULT NULL,
+  `time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `meter_data`
 --
 
-INSERT INTO `meter_data` (`id`, `data`) VALUES
-(1004, '1346'),
-(1005, '1246'),
-(1008, '13846'),
-(1009, '12846');
+INSERT INTO `meter_data` (`id`, `data`, `time`) VALUES
+(1004, '1346', '2018-12-24 22:46:49'),
+(1005, '1246', '2018-12-24 22:46:49'),
+(1008, '13846', '2018-12-24 22:46:49'),
+(1009, '12846', '2018-12-24 22:46:49'),
+(1002, '4243', '2018-12-24 22:56:10'),
+(1012, '4245', '2018-12-25 04:56:50');
 
 --
 -- Indexes for dumped tables
