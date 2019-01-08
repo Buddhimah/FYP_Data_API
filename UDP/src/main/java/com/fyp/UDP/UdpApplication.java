@@ -11,6 +11,7 @@ public class UdpApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(UdpApplication.class, args);
+
 		Receiver.main(new String[0]);
 
 	}
